@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,400italic);
+
+body{
+  background-color: #4a5e82;
+}
+h1{
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  font-family: oswald;
+  color: #e1e1e6;
+}
+img{
+  max-width: 100px;
+  height: auto;
+  display: inline-block;
+}
+footer{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.streamers{
+  background-color: grey;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: .1em;
+  color: #8ea7c2;
+}
+.online{
+  background-color: #b8cca6;
+  display: inline-block;
+  color: #4a5e82;
+}
+.offline{
+  background-color: #4a5e82;
+  color: #e1e1e6;
+}
+#container{
+  width: 60%;
+  height: auto;
+  position: relative;
+  background-color: #5c5457;
+  margin-top: 10%;
+  margin-bottom: 2.5%;
+}
+#channel{
+  position: relative; top: 15px; right: 100px;
+  font-size: 1.25em;
+  text-align: left;
+  text-decoration: none;
+  color: #4a5e82;
+  font-family: "";
+}
+#game{
+  position: relative; top: 15px; right: 100px;
+  font-size: 1.25em;
+  font-style: italic;
+  text-align: left;
+  color: #5c5457;
+  font-family: "";
+}
+#output{
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+#fgame{
+  position: relative; top: 15px; right: 100px;
+  font-size: 1.25em;
+  font-style: italic;
+  text-align: left;
+  color: #e1e1e6;
+  font-family: "";
+}
+#fchannel{
+  position: relative; top: 15px; right: 100px;
+  font-size: 1.25em;
+  text-align: left;
+  text-decoration: none;
+  color: #e1e1e6;
+  font-family: "";
+}

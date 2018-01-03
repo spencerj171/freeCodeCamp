@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Oswald');
+
+body{
+  background: url('http://adwallpapers.xyz/uploads/posts/5483-wooden-desk-background.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.gameover{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin-top: 50px;
+}
+.base{
+  width: 75%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 5% auto;
+}
+.logo{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 2.5%;
+}
+.cbutton{
+  text-align: center;
+  margin: 0 0 5% 6%;
+  padding: 100px;
+  border-radius: 50%;
+  outline: none;
+}
+.green{
+  background: rgb(0, 255, 0);
+  opacity: .6;
+}
+.red{
+  background: rgb(255, 0, 0);
+  opacity: .6;
+}
+
+.blue{
+  background: rgb(0, 0, 255);
+  opacity: .6;
+}
+.yellow{
+  background: rgb(255, 255, 0);
+  opacity: .6;
+}
+
+
+.bottom{
+  padding: 2.5%;
+  display: flex;
+  color: black;
+}
+.bbutton{
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+.count{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.sm{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.start{
+  background: rgb(0, 255, 0);
+  opacity: .6;
+}
+.strict{
+  background: rgb(255, 255, 0);
+  opacity: .6;
+}
+.power{
+  background: rgb(255, 0, 0);
+  opacity: .6;
+}
+
+.active{
+  opacity: 1;
+}

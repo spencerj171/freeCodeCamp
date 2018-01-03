@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="top">
+      <h1>Tic Tac Toe</h1>
+      <h3>Play as: <a href="#" id="playX">X</a> or <a href="#" id="playO">O</a></h3>
+      <div class="bar">
+        <div class="el" id="xWins">X: 0</div>
+        <button class="btn btn-primary el" type="submit" id="newGame">New Game</button>
+        <div class="el" id="oWins">O: 0</div>
+      </div>
+      <div id="gameOver"></div>
+    </div>
+    <div class="board">
+      <table class="center">
+        <tr>
+          <td class="square" id="a1"></td>
+          <td class="square" id="a2"></td>
+          <td class="square" id="a3"></td>
+        </tr>
+        <tr>
+          <td class="square" id="b1"></td>
+          <td class="square" id="b2"></td>
+          <td class="square" id="b3"></td>
+        </tr>
+        <tr>
+          <td class="square" id="c1"></td>
+          <td class="square" id="c2"></td>
+          <td class="square" id="c3"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>

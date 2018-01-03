@@ -1,0 +1,84 @@
+body, html{
+  text-align: center;
+  margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+h1{
+  font-size: 300%;
+  margin-top: 5%;
+}
+h3, #gameOver{
+  font-size: 150%;
+}
+a{
+  color: black;
+}
+a:hover{
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+table{
+  margin-top: 2.5%;
+}
+td {
+  width: 150px;
+  height: 150px;
+  padding: 2em;
+  background-color: white;
+}
+td:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.top{
+  background: grey;
+  margin-top: 0;
+  width: 100%;
+  height: 200px;
+}
+.bar{
+  display: flex;
+}
+.el{
+  flex: 1;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.filled{
+  font-size: 50px;
+}
+#a2{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+#b1 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#b2 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+#b3 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#c2 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+#xWins{
+  font-size: 30px;
+}
+#oWins{
+  font-size: 30px;
+}

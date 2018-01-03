@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="clock.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js" charset="utf-8"></script>
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+    <div class="timer">
+      <div class="timerControls">
+        <button data-time="300" class="timerButton">QUICK 5</button>
+        <button data-time="600" class="timerButton">10 MINS</button>
+        <button data-time="900" class="timerButton">15 MINS</button>
+        <button data-time="1200" class="timerButton">20 MINS</button>
+        <button data-time="1500" class="timerButton">25 MINS</button>
+        <button data-time="1800" class="timerButton">30 MINS</button>
+        <button data-time="3600" class="timerButton">1 HOUR</button>
+        <form name="customForm" id="custom">
+          <input type="text" name="minutes" placeholder="Enter Minutes">
+        </form>
+      </div>
+      <div class="display">
+        <h1 class="timeLeft"></h1>
+        <p class="endTime"></p>
+      </div>
+    </div>
+
+    <script src="clock.js" charset="utf-8"></script>
+  </body>
+</html>

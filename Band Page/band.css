@@ -1,0 +1,26 @@
+body {
+  background-color: #1D1D1D;
+  color: white;
+}
+div {
+    text-align:center;
+}
+li {
+    list-style-type:none;
+    margin-right: 25px;
+}
+h1, h2 {
+    font-family:'helvetica';
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+table, th, td {
+  border: 0px solid black;
+}
+footer {
+  padding: 1em;
+}

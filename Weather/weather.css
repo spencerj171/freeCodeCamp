@@ -1,0 +1,70 @@
+body{
+  background-image: url('https://www.miro.co.za/wp-content/uploads/New-York-City-Skyline.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: black;
+  background-color: black;
+}
+footer{
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+.switch{
+  border: none;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.weather{
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding: 50px 50px 50px 50px;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+#location{
+  font-size: 2em;
+  padding-bottom: .5em;
+}
+#currentTemp{
+  font-size: 1.5em;
+  display: inline-block;
+}
+#forc{
+  color: black;
+  display: inline-block;
+  font-size: 1em;
+}
+#icon{
+  width: 100%;
+  height: auto;
+}
+#description{
+  display: inline-block;
+}
+#lowTemp{
+  display: inline-block;
+  padding-right: 10px;
+}
+#highTemp{
+  display: inline-block;
+}
+#humidity{
+  padding-top: .5em;
+}
+#map{
+  width: 100%;;
+  height: 300px;
+  margin: auto;
+}
+a.switch{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: rgb(66, 134, 244);
+  text-decoration: none;
+}

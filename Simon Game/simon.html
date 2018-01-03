@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="gameover"></div>
+    <div class="base">
+      <div class="logo">Simon</div>
+      <div class="top">
+        <button data-id="0" class="cbutton green"></button>
+        <button data-id="1" class="cbutton red"></button>
+        <button data-id="2" class="cbutton blue"></button>
+        <button data-id="3" class="cbutton yellow"></button>
+      </div>
+
+      <div class="count">Count: 0</div>
+      <div class="sm">Strict Mode: Off</div>
+
+      <div class="bottom">
+        <button class="bbutton start">Start</button>
+        <button class="bbutton strict">Strict</button>
+        <button class="bbutton power">Power</button>
+      </div>
+    </div>
+    <script src="simon.js" charset="utf-8"></script>
+  </body>
+</html>

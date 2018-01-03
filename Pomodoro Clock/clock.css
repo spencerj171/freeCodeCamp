@@ -1,0 +1,40 @@
+*, html, body{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: rgb(44, 62, 80);
+}
+canvas{
+  margin-left: 33%;
+}
+.timer{
+  display: flex;
+  flex-direction: column;
+}
+.timerButton{
+  background: #f48942;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+  border: none;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.3);
+}
+.timerControls{
+  display: flex;
+}
+.timerControls input{
+  flex: 1;
+  padding: 2rem;
+  background: white;
+}
+.display{
+  text-align: center;
+  color: rgba(0, 0, 0, .7);
+}
+.timeLeft{
+  font-size: 100px;
+}
+.endTime{
+  font-size: 50px;
+}

@@ -1,0 +1,32 @@
+html{
+  background-color: black;
+}
+body {
+  margin-top: 50px;
+  background-color: black;
+  color: black;
+  font-family: helvetica;
+}
+.container {
+  background-color: #999966;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+}
+#imageKafka {
+  border-radius: 10px;
+  border: solid black;
+  margin: 25px;
+}
+.name {
+  padding-top: 25px;
+}
+.row {
+  text-align: center;
+}
+li {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: left;
+}

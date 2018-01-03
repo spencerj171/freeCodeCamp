@@ -1,0 +1,72 @@
+body{
+  background-color: #f48942;
+}
+a{
+  color: black;
+}
+button{
+  background-color: #f48942;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  margin-bottom: 2em;
+}
+footer{
+  text-align: center;
+  margin: 2em;
+  font-weight: 700;
+  color: white;
+}
+.box{
+  background-color: white;
+  width: 50%;
+  margin-top: 10em;
+  overflow: hidden;
+}
+.quote{
+  text-align: center;
+  padding-top:2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  color: #f48942;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  display: inline-block;
+}
+.author{
+  text-align: right;
+  padding: 2em;
+  margin-right: 50px;
+  color: #f48942;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  float: right;
+}
+.quote #quoteMark{
+  font-size: 2em;
+}
+#randomQuote:hover{
+  opacity: 0.9;
+}
+.twitter-share-button{
+  background-color: #f48942;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  float: left;
+  position: relative;
+  margin-bottom: 2em;
+}
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  opacity: 0.9;
+}
